@@ -1,0 +1,43 @@
+Tautkan CSS dan JS
+1. Tautkan ke CSS ke bootstrap, pada File Header.php Tambahkan script dibawah ini sebelum <head>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+2. Tautkan JavaScript ke bootstrap, pada file footer.php tambahkan script dibawah ini diatas </body>
+   <script src="js/bootstrap.bundle.min.js"></script>
+
+Menambahkan menu Navigasi
+1. Tambahkan script dibawah ini setelah <body> pada file header.php
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <div class="container">
+                <a href="./" class="navbar-brand mb-0 h1">Sistem Informasi Pelanggan</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" databs- target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="pelanggan_read.php">Data Pelanggan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="logout.php">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+
+2. Tambahkan script dibawah ini diatas <script src=....> pada file footer.php
+</div>
+</main>
+<footer style="background-color: #ebebeb; margin-top:10px;">
+    <div class="container p-3">
+        <span class="text-muted">Created By: Nama Anda Disini</span>
+    </div>
+</footer>
+
+
+
+
